@@ -19,7 +19,7 @@ src_request_msg = None
 @colab_bot.on_message(filters.command("start") & filters.private)
 async def start(client, message):
     await message.delete()
-    text = "**Hey There, I'm Your <b>𝐓𝐀𝐌𝐈𝐋 𝐆𝐄𝐌𝐒 𝐑𝐎𝐁𝐎𝐓 😘</b>**\n\n◲ <b>🎬 🎶 Get Latest 4k Movies, Series, and Songs. Enjoy! 🎬 🎶</b>\n◲<b> 🏴‍☠️🚀🏴‍☠️ Join</b> : @TamilGems 🔥 "
+    text = "**Hello, I'm Your <b>TAMIL GEMS ROBOT 😘</b>**\n\n <b>🎬 🎶 Get Latest 4k Movies, Series, and Songs. Enjoy! 🎬 🎶</b>\n\n<b> 🏴‍☠️🚀🏴‍☠️ Join</b> : @TamilGems 🔥 "
     keyboard = InlineKeyboardMarkup(
         [
             [
